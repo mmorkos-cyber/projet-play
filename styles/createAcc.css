@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(24,37,128);
+    background: linear-gradient(90deg, rgba(24,37,128,1) 27%, rgba(82,104,121,1) 72%, rgba(46,57,61,1) 100%);
+}
+main{
+    background-color: white;
+    width: 75vw;
+    height: 50vh;
+    
+}
+.f1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
