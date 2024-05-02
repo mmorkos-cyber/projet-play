@@ -1,6 +1,6 @@
 <?php
 session_start();
-require('../includes/dbConnect.php');
+require('../include/dbConnect.php');
 
 // verification du remplissage des champs
 if(!empty($_POST['oldpass']) && !empty($_POST['newpass']) && !empty($_POST['newpass2'])) {
@@ -37,6 +37,6 @@ if(!empty($_POST['oldpass']) && !empty($_POST['newpass']) && !empty($_POST['newp
 } else {
     // erreur champ vide
     $_SESSION['error'] = "Field is empty.";
-    header('Location: ../.php');
+    header('Location: ../profile.php');
     exit();
 }

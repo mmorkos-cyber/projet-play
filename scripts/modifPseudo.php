@@ -1,6 +1,6 @@
 <?php
 session_start();
-require('../includes/dbConnect.php');
+require('../include/dbConnect.php');
 
 // verification of fields
 if(!empty($_POST['username'])) {

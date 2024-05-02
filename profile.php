@@ -30,6 +30,7 @@
                 <button type="submit">Modify Password</button>
         </form>
         <a href="./scripts/supprCompte.php">Delete my account</a>
+        <a href="./scripts/deconnexion.php">Sign Out</a>
     </main>
 
 

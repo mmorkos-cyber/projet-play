@@ -81,3 +81,13 @@ footer a:hover{
         width: 100%;
     }
 }
+.btn-couleur {
+    background-color: #5498ec;
+}
+.input{
+    width: 100%;
+}
+
+.btn-btn{
+    margin-top: 5%;
+}
